@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>LabRP</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="MelonLoader" />
+    <Reference Include="BoneLib" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="LabFusion" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="Il2CppSLZ.Marrow" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="Il2CppInterop.Runtime" />
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="Newtonsoft.Json" />
+  </ItemGroup>
+</Project>
